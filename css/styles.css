@@ -43,6 +43,38 @@ a:hover {
     font-weight:bold;
 }
 
+figure {
+    padding:10px;
+    background-color:#F65969;
+    display:inline-block;
+    border-radius:15px
+}
+
+figcaption {
+    text-align:center;
+    font-size:1.25em;
+    color:#664F7B;
+}
+
+main {
+    width:1200px;
+    overflow:hidden;
+    margin:20px auto;
+}
+
+.button {
+    font-size:1.25em;
+    background-color:#C7E293;
+    color:#AD8C65;
+    border-radius:14px;
+    padding:10px;
+}
+
+.button:hover {
+    background-color:#AD8C65;
+    color:#C7E293;
+}
+
 /*HEADER STYLES*/
 
 header {
@@ -52,6 +84,8 @@ header {
 
 #logo {
     color:#ffa31a;
+    position:relative;
+    left:10%;
 }
 #logo:hover {
     color:#ff6633;
@@ -71,5 +105,72 @@ header {
 #bannertext {
     font-size:6em;
     text-align:center;
-    text-shadow:6px 6px #000;
+    text-shadow:3px 3px 6px #111;
+}
+
+#banner h3, a {
+    margin:10px;
+    position:relative;
+    left:30%;
+    
+}
+
+/*NAVIGATION STYLES*/
+
+#menu {
+    position:absolute;
+    top:23px;
+    right:20px;
+}
+
+#menu ul li {
+    display:inline-block;
+    /*display:inline-table;*/
+    font-size:2.5em;
+    margin:0px 40px;
+    padding:5px 10px;
+    font-family:'Comic Sans MS', Verdana, sans-serif;
+}
+
+.currentPage {
+    color:#000;
+}
+
+/*THREE COLUMN STYLES*/
+
+.columna, .columnb, .columnc {
+    width:384px;
+}
+
+.columna, .columnb {
+    float:left;
+    margin-right:24px;
+}
+
+.columnc {
+    float:left;
+}
+
+.columna h2, .columnb h2, .columnc h2 {
+    font-size:2.25em;
+    font-weight:700;
+    text-align:center;
+    margin:15px 0px;
+}
+
+.columna p, .columnb p, .columnc p {
+    padding:0px;
+    text-align:justify;
+}
+
+
+article span {
+    background-color:#ff7900;
+    color:#fff;
+    display:block;
+    text-align:center;
+    font-size:1.8em;
+    font-weight:600;
+    border-radius:4px;
+    padding:4px 0px;
 }
